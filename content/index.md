@@ -115,7 +115,7 @@ Goal:
 
 Partial success, but not scalable.
 
-*Details*: `phases/06-ssh-tunnels.md`
+*Details*: [[SSH Tunnels]]
 
 ---
 
@@ -135,7 +135,7 @@ Learned:
 - OpenVPN configs
 - credential management
 
-*Details*: `phases/07-vpn-setup.md`
+*Details*: [[SSHVPN Setup]]
 
 ---
 
@@ -150,7 +150,7 @@ This solved:
 - dynamic IP issues
 - remote access without port forwarding
 
-*Details*: `phases/08-tailscale.md`
+*Details*: [[Tailscale Breakthrough]]
 
 ---
 
@@ -171,65 +171,11 @@ Tried:
 - manual route overrides
 - split tunneling
 
-*Details*: `phases/09-routing-debugging.md`
+*Details*: [[VPN vs Tailscale]]]
 
 ---
 
-# Phase 10 -- Understanding the Network
-
-Realization:
-
-- Campus firewall (Sophos) blocks direct traffic
-- Only full-tunnel VPN works reliably
-- Tailscale must either:
-  - run inside VPN
-  - or run completely outside it
-
-This was the key conceptual breakthrough.
-
-*Details*: `phases/10-vpn-conflicts.md`
-
----
-
-# Phase 11 -- Stable Access Workflow
-
-Final working approach:
-
-```text
-Outside campus:
-    Mobile data → Tailscale → SSH → control server
-
-Inside campus:
-    Direct IP access
-
-VPN:
-    Used only when required
-```
-
-This created a reliable multi-access system.
-
-*Details*: `phases/11-final-architecture.md`
-
----
-
-# Phase 12 -- Automation & Scripts
-
-Built custom tools:
-
-- `sshvpn` → manage system VPN
-- `vpnbox` → isolated VPN environment
-- various helper scripts
-
-Learned:
-- scripting patterns
-- command abstraction
-- debugging workflows
-
-*Details*: `scripts/sshvpn.md`
-
----
-
-# Phase 13 -- vpnbox (Per-App VPN)
+# Phase 10 -- vpnbox (Per-App VPN)
 
 Implemented advanced setup using network namespaces:
 
@@ -248,6 +194,6 @@ Result:
 - clean separation of traffic
 - no system-wide VPN interference
 
-*Details*: `phases/12-vpnbox.md`
+*Details*: [[vpnBox]]
 
 ---

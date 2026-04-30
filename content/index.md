@@ -177,7 +177,7 @@ Tried:
 
 # Phase 10 -- vpnbox (Per-App VPN)
 
-Implemented advanced setup using network namespaces:
+Tried to implement an advanced setup using network namespaces:
 
 Goal:
 ```text
@@ -190,10 +190,14 @@ Steps:
 - ran OpenVPN inside it
 - ran qBittorrent inside it
 
-Result:
+Expected result:
 - clean separation of traffic
 - no system-wide VPN interference
 
-*Details*: [[vpnBox]]
+Actual Result:
+- Didn't work
+- Qbittorrent instance from inside the vpnbox cannot be accessed from outside, so it is stuck inside the box
+
+*Details*: [[vpnBox (DOESN'T WORK)]]
 
 ---

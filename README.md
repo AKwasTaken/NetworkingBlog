@@ -10,4 +10,4 @@ This is a record of what was tried, what failed, and what worked.
 
 ---
 
-Blog: https://your-quartz-site-url
+Blog: https://AKwasTaken.github.io/NetworkingBlog

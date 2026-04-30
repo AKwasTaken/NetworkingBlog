@@ -1,20 +1,13 @@
-# Quartz v4
+# Home Server Journey
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+This repository is a simple log of setting up a home server on a Linux Mint laptop inside a campus network.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+Started with a Minecraft server, then moved to media setup using Plex (did not work well), and then Jellyfin. Added qBittorrent for downloads. Faced multiple networking issues due to captive portal, dynamic IPs, and subnet restrictions.
 
-**If you are looking for Quartz v3, you can find it on the [`hugo` branch](https://github.com/jackyzha0/quartz/tree/hugo).**
+Tried different approaches for remote access, including SSH tunneling, VPN setup, and Tailscale. Eventually built custom scripts and a per-application VPN setup (`vpnbox`) to make things work reliably.
 
-🔗 Read the documentation and get started: https://four.quartz.jzhao.xyz/
+This is a record of what was tried, what failed, and what worked.
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+---
 
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Blog: https://your-quartz-site-url

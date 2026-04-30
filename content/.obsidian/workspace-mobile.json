@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "533acd08cacb1644",
+    "type": "split",
+    "children": [
+      {
+        "id": "e42f4821b3d9f4ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "698debda95ae7ad0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "18c60cf033660616",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7ca5b061b957f977",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "dca16a6e0c477e2f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "tag:#ProofChecked",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "d0d1e5f5632508cd",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "8e3735754014c173",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "a427f17d4f04f595",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "57b822ade8e2254a",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Edu/MAT 204/Groups and Rings - MAT204.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": true,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "d438ad6a1253a1f0",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Measure Theory/Lecture 1.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "1694bebe7c25ede3",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Camera Shopping.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "random-note:Open random note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "698debda95ae7ad0",
+  "lastOpenFiles": [
+    "Measure Theory/Lecture 1.md",
+    "Real Analysis/MAT 203/Pre-Midsem/Lecture 10 - MAT 203.md",
+    "Real Analysis/MAT 203/Pre-Midsem/Lecture 9 - MAT 203.md",
+    "Real Analysis/MAT 203/Pre-Midsem/Lecture 7 - MAT 203.md",
+    "Real Analysis/MAT 203/Pre-Midsem/Lecture 4 - MAT 203.md",
+    "Real Analysis/MAT 203/Pre-Midsem/Lecture 2 - MAT 203.md",
+    "Real Analysis/MAT 203/Pre-Midsem/Lecture 1 - MAT 203.md",
+    "Measure Theory/Lecture 13.md",
+    "Measure Theory/Lecture 2.md",
+    "Money/Basics.md",
+    "Money/Everything to know about money making.md",
+    "ODE/Revision Notes.md",
+    "Numerical Analysis/Repeated.md",
+    "Complex Analysis/MAT 321/Problem Sheet 6.md",
+    "Complex Analysis/MAT 321/Problem Sheet 8.md",
+    "Complex Analysis/MAT 321/Problem Sheet 7.md",
+    "Matlab/Endsem Revision.md",
+    "*Misc/Minecraft Storage Sorting.md",
+    "Metric Spaces/Tutorial 1.md",
+    "Metric Spaces/Tutorial 2.md",
+    "Abstract Algebra/Midsem stuff.md",
+    "Test.md",
+    "Complex Analysis/MAT 321/Problem Sheet 5.md",
+    "Complex Analysis/MAT 321/Problem Sheet 4.md",
+    "Complex Analysis/MAT 321/Problem Sheet 1.md",
+    "Statistics/DSC 322/Multiple Linear Regression.md",
+    "Studyyy",
+    "*Misc/Shortfilm",
+    "Group Theory/MAT 204/Assignments",
+    "Optimisation Techniques",
+    "Real Analysis/MAT 203/Rough",
+    "Group Theory/MAT 204/Lectures - Post-MidSem",
+    "Edu/R",
+    "Edu/DSC 316",
+    "Misc"
+  ]
+}

@@ -222,3 +222,18 @@ _Details_: [[vpnBox (DOESN'T WORK)]]
 # Phase 11 -- Dashboard!
 
 I am trying to implement a dashboard for my homeserver, as I came across a youtube video on a homelab-ing video that showcased someone vibe-coding a dashboard. Trying to avoid AI as much as possible, I came across Flame.
+
+Steps:
+
+- downloaded docker
+- pulled Flame into the created container
+- installed and ran Flame
+
+Observed:
+
+- minimalistic dashboard of Flame
+- i actually want something that is more informative, so probably will switch to Homepage dashboard.
+
+\*Details: \* [[Flame Dashboard]]
+
+---
